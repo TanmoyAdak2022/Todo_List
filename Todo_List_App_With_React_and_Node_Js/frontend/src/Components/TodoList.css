@@ -1,0 +1,41 @@
+.margine-right {
+    margin-right:  10px;
+}
+
+.margine-left {
+    margin-left: 25px;
+}
+
+.is-done {
+    text-decoration:  line-through;
+    background-color: yellow;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+img, svg {
+    vertical-align: sub;
+    padding-right: 6px;
+}
+
+.todo-items {
+    font-weight: 600;
+}
+
+.spinner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background:  rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.loading {
+    margin-left: 20px;
+}
+
